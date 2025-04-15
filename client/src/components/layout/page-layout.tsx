@@ -12,12 +12,17 @@ export function PageLayout({ children, title }: PageLayoutProps) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="h-screen flex overflow-hidden bg-neutral-50 dark:bg-gray-900 text-neutral-900 dark:text-gray-100">
+    <div className="h-screen flex overflow-hidden text-foreground">
+      {/* Kali Linux Dragon Logo Watermark */}
+      <div className="fixed bottom-0 right-0 w-96 h-96 opacity-5 pointer-events-none z-0">
+        <img src={kaliDragonLogo} alt="Kali Linux Dragon" className="w-full h-full" />
+      </div>
+      
       {/* Sidebar */}
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col overflow-hidden relative z-10">
         {/* Top Navbar */}
         <Navbar title={title} onOpenSidebar={() => setSidebarOpen(true)} />
 
