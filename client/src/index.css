@@ -9,6 +9,11 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
+    background-image: url('./assets/kali-background.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .dark {
@@ -55,4 +60,30 @@
     --input: 215 28% 17%;
     --ring: 230 100% 50%;
   }
+}
+
+/* Add some custom classes for the Kali-Linux theme */
+.card, 
+.bg-card, 
+[class*="bg-card"] {
+  background-color: hsla(220, 25%, 5%, 0.8) !important; /* Semi-transparent card background */
+  backdrop-filter: blur(5px);
+  border: 1px solid hsla(215, 28%, 20%, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  background-color: hsla(220, 20%, 4%, 0.9) !important; /* Darker, more opaque sidebar */
+  backdrop-filter: blur(10px);
+  border-right: 1px solid hsla(215, 28%, 20%, 0.4);
+}
+
+/* Glassmorphism effect for dialogs and modals */
+.dialog,
+.modal,
+[role="dialog"] {
+  background-color: hsla(220, 25%, 5%, 0.85) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid hsla(215, 28%, 20%, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Sidebar } from '@/components/layout/sidebar';
 import { Navbar } from '@/components/layout/navbar';
+import kaliDragonLogo from '../../assets/kali-dragon.svg';
 
 interface PageLayoutProps {
   children: React.ReactNode;
