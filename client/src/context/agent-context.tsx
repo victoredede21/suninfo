@@ -43,11 +43,11 @@ export function AgentProvider({ children }: { children: React.ReactNode }) {
 
   // Fetch agents
   const { 
-    data: agents = [], 
+    data: agents = [] as Agent[], 
     isLoading, 
     isError, 
     refetch: refreshAgents 
-  } = useQuery({
+  } = useQuery<Agent[]>({
     queryKey: ['/api/agents'],
     refetchInterval: 30000 // Refresh every 30 seconds
   });
@@ -58,13 +58,13 @@ export function AgentProvider({ children }: { children: React.ReactNode }) {
     isLoading: isStatsLoading,
     isError: isStatsError,
     refetch: refreshStats
-  } = useQuery({
+  } = useQuery<ServerStats>({
     queryKey: ['/api/stats'],
     refetchInterval: 30000 // Refresh every 30 seconds
   });
 
   // WebSocket for real-time updates
-  const { readyState } = useWebSocket('/ws', {
+  const { readyState, connect } = useWebSocket('/ws', {
     onMessage: (event) => {
       try {
         const data = JSON.parse(event.data);
@@ -120,8 +120,16 @@ export function AgentProvider({ children }: { children: React.ReactNode }) {
         description: 'Real-time updates are not available',
         variant: 'destructive',
       });
+      
+      // Try to reconnect after a delay
+      const reconnectTimer = setTimeout(() => {
+        console.log('Attempting to reconnect WebSocket...');
+        connect();
+      }, 5000);
+      
+      return () => clearTimeout(reconnectTimer);
     }
-  }, [readyState, toast]);
+  }, [readyState, toast, connect]);
 
   // Function to capture a screenshot from an agent
   const captureScreenshot = async (agentId: number) => {
