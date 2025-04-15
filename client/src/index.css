@@ -33,26 +33,26 @@
     --ring: 224 71% 4%;
   }
 
-  /* Force dark theme */
+  /* Force dark theme with deeper black background */
   :root {
-    --background: 224 71% 4%;
-    --foreground: 213 31% 91%;
-    --card: 224 71% 4%;
-    --card-foreground: 213 31% 91%;
-    --popover: 224 71% 4%;
-    --popover-foreground: 213 31% 91%;
-    --primary: 210 100% 50%;
+    --background: 220 20% 2%;  /* Much darker, almost pure black with a slight blue tint */
+    --foreground: 210 40% 98%; /* Brighter text for better contrast */
+    --card: 220 25% 5%;        /* Slightly lighter than background for cards */
+    --card-foreground: 210 40% 98%;
+    --popover: 220 25% 5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 230 100% 50%;   /* Vibrant blue */
     --primary-foreground: 0 0% 100%;
-    --secondary: 222.2 47.4% 11.2%;
+    --secondary: 215 25% 12%;  /* Dark blue-gray for secondary elements */
     --secondary-foreground: 210 40% 98%;
-    --muted: 223 47% 11%;
-    --muted-foreground: 215.4 16.3% 56.9%;
-    --accent: 216 34% 17%;
+    --muted: 220 20% 10%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 230 30% 15%;     /* Subtle accent that complements the primary */
     --accent-foreground: 210 40% 98%;
-    --destructive: 0 63% 31%;
+    --destructive: 0 70% 42%;  /* Brighter red for destructive actions */
     --destructive-foreground: 210 40% 98%;
-    --border: 216 34% 17%;
-    --input: 216 34% 17%;
-    --ring: 224 71% 4%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 230 100% 50%;
   }
 }
