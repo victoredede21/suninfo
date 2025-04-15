@@ -25,8 +25,8 @@ export function useWebSocket(url: string, options: WebSocketHookOptions = {}): W
     onClose,
     onError,
     reconnectOnClose = true,
-    reconnectInterval = 3000,
-    maxReconnectAttempts = 5
+    reconnectInterval = 1000, // Faster reconnection
+    maxReconnectAttempts = 20 // More reconnection attempts
   } = options;
 
   const socket = useRef<WebSocket | null>(null);

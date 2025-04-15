@@ -106,26 +106,36 @@ export function AgentProvider({ children }: { children: React.ReactNode }) {
     }
   });
 
-  // Show toast notifications for WebSocket connection status
+  // Show toast notifications for WebSocket connection status only once
+  // and reconnect automatically without showing constant notifications
   useEffect(() => {
+    let hasShownConnectedToast = false;
+    let disconnectCount = 0;
+    const maxDisconnectNotifications = 1;
+    
     if (readyState === WebSocket.OPEN) {
-      toast({
-        title: 'WebSocket Connected',
-        description: 'Real-time updates are now active',
-        variant: 'default',
-      });
+      if (!hasShownConnectedToast) {
+        // Only show connected toast once
+        hasShownConnectedToast = true;
+        toast({
+          title: 'Connected to Server',
+          description: 'Real-time updates are now active',
+          variant: 'default',
+        });
+      }
+      // Reset disconnect counter when connected
+      disconnectCount = 0;
     } else if (readyState === WebSocket.CLOSED) {
-      toast({
-        title: 'WebSocket Disconnected',
-        description: 'Real-time updates are not available',
-        variant: 'destructive',
-      });
+      // Only show disconnection toast a limited number of times to avoid spam
+      if (disconnectCount < maxDisconnectNotifications) {
+        disconnectCount++;
+        console.log('WebSocket disconnected, attempting to reconnect...');
+      }
       
-      // Try to reconnect after a delay
+      // Try to reconnect automatically without showing toast every time
       const reconnectTimer = setTimeout(() => {
-        console.log('Attempting to reconnect WebSocket...');
         connect();
-      }, 5000);
+      }, 1000);
       
       return () => clearTimeout(reconnectTimer);
     }
