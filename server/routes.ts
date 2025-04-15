@@ -20,7 +20,7 @@ function sendResponse(res: Response, status: number, message: string | object) {
 }
 
 function handleError(res: Response, error: unknown) {
-  console.error('Error:', error);
+  console.error('API Error:', error);
   
   if (error instanceof ZodError) {
     return sendResponse(res, 400, {
@@ -29,7 +29,22 @@ function handleError(res: Response, error: unknown) {
     });
   }
   
-  return sendResponse(res, 500, 'Internal server error');
+  if (error instanceof Error) {
+    // Log detailed error information for debugging
+    console.error('Error details:', {
+      name: error.name,
+      message: error.message,
+      stack: error.stack
+    });
+    
+    // Return a more informative error message
+    return sendResponse(res, 500, { 
+      message: 'Internal server error',
+      error: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
+  }
+  
+  return sendResponse(res, 500, { message: 'Internal server error' });
 }
 
 export async function registerRoutes(app: Express): Promise<Server> {
@@ -105,7 +120,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             connectedClients.set(clientId, { ws, agentId: agent.id });
             
             // Update agent status
-            await storage.updateAgent(clientId, { isOnline: true, lastSeen: new Date() });
+            await storage.updateAgent(clientId, { isOnline: true });
             
             // Log activity
             await storage.createActivity({
@@ -138,7 +153,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const client = connectedClients.get(clientId);
         if (client) {
           // Update agent status
-          await storage.updateAgent(clientId, { isOnline: false, lastSeen: new Date() });
+          await storage.updateAgent(clientId, { isOnline: false });
           
           // Log activity
           await storage.createActivity({
@@ -197,8 +212,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           // Update agent with new system info
           agent = await storage.updateAgent(clientId, {
             ...decryptedSystemInfo,
-            isOnline: true,
-            lastSeen: new Date()
+            isOnline: true
           });
           
           // Log check-in activity

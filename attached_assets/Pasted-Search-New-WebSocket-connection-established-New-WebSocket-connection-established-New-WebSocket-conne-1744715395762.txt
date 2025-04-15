@@ -1,0 +1,1360 @@
+Search
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:07:46 AM [express] GET /api/stats 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+11:07:43 AM [express] GET /api/settings 500 in 4ms :: {"message":"Internal server error"}
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:07:39 AM [express] GET /api/screenshots 500 in 5ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:07:28 AM [express] GET /api/screenshots 500 in 3ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+11:07:26 AM [express] GET /api/agents 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+==> Detected a new open port HTTP:5000
+New WebSocket connection established
+11:07:20 AM [express] GET /api/agents 500 in 3ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+11:07:20 AM [express] GET /api/activities 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:07:15 AM [express] GET /api/stats 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+11:07:12 AM [express] GET /api/agents 500 in 5ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:58 AM [express] GET /api/agents 500 in 3ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:44 AM [express] GET /api/stats 500 in 5ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:34 AM [express] GET /api/settings 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:27 AM [express] GET /api/agents 500 in 5ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:23 AM [express] GET /api/agents 500 in 5ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+11:06:23 AM [express] GET /api/activities 500 in 11ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+11:06:23 AM [express] GET /api/screenshots 500 in 9ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+==> Detected a new open port HTTP:5000
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:06:13 AM [express] GET /api/stats 500 in 6ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+11:06:13 AM [express] GET /api/agents 500 in 6ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+11:06:11 AM [express] GET /api/screenshots 500 in 8ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+11:06:04 AM [express] GET /api/activities 500 in 5ms :: {"message":"Internal server error"}
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+11:05:53 AM [express] GET /api/activities 500 in 7ms :: {"message":"Internal server error"}
+Error: ErrorEvent {
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+New WebSocket connection established
+11:05:43 AM [express] GET /api/stats 500 in 4ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+11:05:43 AM [express] GET /api/agents 500 in 105ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+11:05:43 AM [express] GET /api/activities 500 in 321ms :: {"message":"Internal server error"}
+}
+  [Symbol(kMessage)]: 'connect ECONNREFUSED 10.215.174.58:443'
+  },
+    port: 443
+    address: '10.215.174.58',
+    syscall: 'connect',
+    code: 'ECONNREFUSED',
+    errno: -111,
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16) {
+  [Symbol(kError)]: Error: connect ECONNREFUSED 10.215.174.58:443
+  [Symbol(kType)]: 'error',
+  },
+    [Symbol(kCapture)]: false
+    [Symbol(shapeMode)]: false,
+    _req: null,
+    _url: 'wss://dpg-cvudq3hr0fns73812btg-a/v2',
+    _autoPong: true,
+    _redirects: 0,
+    _isServer: false,
+    _bufferedAmount: 0,
+    _socket: null,
+    _sender: null,
+    _receiver: null,
+    _readyState: 3,
+    _protocol: '',
+    _paused: false,
+    _extensions: {},
+    _errorEmitted: true,
+    _closeTimer: null,
+    _closeMessage: <Buffer >,
+    _closeFrameSent: false,
+    _closeFrameReceived: false,
+    _closeCode: 1006,
+    _binaryType: 'arraybuffer',
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    },
+      open: [Function]
+      close: [Function],
+      message: [Function],
+      error: [Function],
+    _events: [Object: null prototype] {
+  [Symbol(kTarget)]: WebSocket {
+Error: ErrorEvent {
+==> Detected a new open port HTTP:5000
+==> Detected a new open port HTTP:5000
+==> Your service is live 🎉
+11:03:36 AM [express] serving on port 5000
+WebSocket server initialized at path: /ws
+> NODE_ENV=production node dist/index.js
+> rest-express@1.0.0 start
+==> Running ' npm start'
+==> Detected a new open port HTTP:5000
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+==> New primary port detected: 5000. Restarting deploy to update network configuration...
+11:01:10 AM [express] serving on port 5000
+WebSocket server initialized at path: /ws
+> NODE_ENV=production node dist/index.js
+> rest-express@1.0.0 start
+==> Running ' npm start'
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+==> No open ports detected, continuing to scan...
+==> Deploying...
+==> Build successful 🎉
+==> Uploaded in 11.2s. Compression took 7.6s
+==> Uploading build...
+⚡ Done in 6ms
+  dist/index.js  32.2kb
+✓ built in 3.55s
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Using dynamic import() to code-split the application
+(!) Some chunks are larger than 500 kB after minification. Consider:
+../dist/public/assets/index-DNlWYdDi.js   517.29 kB │ gzip: 155.17 kB
+../dist/public/assets/index-Bos2YgQB.css   63.40 kB │ gzip:  10.87 kB
+../dist/public/index.html                   1.85 kB │ gzip:   0.75 kB
+computing gzip size...
+rendering chunks...
+✓ 2054 modules transformed.
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+  npx update-browserslist-db@latest
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+transforming...
+vite v5.4.14 building for production...
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+> rest-express@1.0.0 build
+  ~ activity_logs › activities rename table
+  ~ clients › activities       rename table
+❯ + activities                 create table
+Is activities table created or renamed from another table?
