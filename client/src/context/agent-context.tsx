@@ -158,8 +158,8 @@ export function AgentProvider({ children }: { children: React.ReactNode }) {
   return (
     <AgentContext.Provider
       value={{
-        agents,
-        stats,
+        agents: agents as Agent[],
+        stats: stats as ServerStats,
         isLoading,
         isError,
         isStatsLoading,

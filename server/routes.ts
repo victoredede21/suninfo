@@ -35,23 +35,69 @@ function handleError(res: Response, error: unknown) {
 export async function registerRoutes(app: Express): Promise<Server> {
   const httpServer = createServer(app);
   
-  // Initialize WebSocket server
+  // Initialize WebSocket server with explicit path and improved options
   const wss = new WebSocketServer({ 
     server: httpServer, 
-    path: '/ws' 
+    path: '/ws',
+    clientTracking: true, // Track clients explicitly
+    perMessageDeflate: {
+      zlibDeflateOptions: {
+        level: 6, // Compression level (0-9)
+      }
+    }
+  });
+  
+  console.log('WebSocket server initialized at path: /ws');
+  
+  // Set up heartbeat interval to detect disconnected clients
+  const heartbeatInterval = setInterval(() => {
+    wss.clients.forEach((ws: WebSocket) => {
+      // Terminate if connection is no longer alive
+      if ((ws as any).isAlive === false) {
+        return ws.terminate();
+      }
+      
+      // Mark as not alive, will be marked alive when pong is received
+      (ws as any).isAlive = false;
+      ws.ping();
+    });
+  }, 30000); // Check every 30 seconds
+  
+  // Clean up interval on server close
+  httpServer.on('close', () => {
+    clearInterval(heartbeatInterval);
   });
   
   // WebSocket connection handling
   wss.on('connection', (ws: WebSocket) => {
+    console.log('New WebSocket connection established');
+    
+    // Set isAlive property for heartbeat
+    (ws as any).isAlive = true;
+    
+    // Handle pong response
+    ws.on('pong', () => {
+      (ws as any).isAlive = true;
+    });
+    
     let clientId: string | null = null;
     
-    ws.on('message', async (message: string) => {
+    // Handle ping message type from client
+    ws.on('message', async (message: any) => {
+      // Convert Buffer or other formats to string if needed
+      const messageStr = message.toString ? message.toString() : message;
+      
+      // Keep connection alive if client sends a ping
+      if (messageStr === 'ping') {
+        ws.send('pong');
+        return;
+      }
       try {
-        const data = JSON.parse(message);
+        const data = JSON.parse(messageStr);
         
         // Handle client authentication
         if (data.type === 'auth' && data.clientId) {
-          clientId = data.clientId;
+          clientId = data.clientId as string;
           const agent = await storage.getAgentByClientId(clientId);
           
           if (agent) {
